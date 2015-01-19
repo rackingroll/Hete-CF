@@ -1,7 +1,7 @@
 # Hete-CF
 Hete-CF: Social Recommendation using Heterogeneous Relations
 
-File Main is the Main File of the algorithm.
+File Main.m is the Main File of the algorithm.
 
 For more details please refer the paper:
 
