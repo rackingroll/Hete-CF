@@ -1,9 +1,9 @@
 function [AP,CP,PP,TP,authorlist, paperlist] = DataExtractionPre () 
 
-termpaper = load ('I:\Heterogeneous Network\recommendation paper\code\HetRecom\DBLP_prediction\0306\TP.txt') ;
-authorpaper = load ('I:\Heterogeneous Network\recommendation paper\code\HetRecom\DBLP_prediction\0306\AP.txt') ;
-paperconf = load ('I:\Heterogeneous Network\recommendation paper\code\HetRecom\DBLP_prediction\0306\PC.txt') ;
-paperpaper = load ('I:\Heterogeneous Network\recommendation paper\code\HetRecom\DBLP_prediction\0306\PP.txt') ;
+termpaper = load ('.\DBLP_prediction\0306\TP.txt') ;
+authorpaper = load ('.\DBLP_prediction\0306\AP.txt') ;
+paperconf = load ('.\DBLP_prediction\0306\PC.txt') ;
+paperpaper = load ('.\DBLP_prediction\0306\PP.txt') ;
 
 termnum = max(termpaper(:,1)) +1 ;
 papernum = max(authorpaper(:,2)) +1; 
